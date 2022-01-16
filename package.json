@@ -9,7 +9,12 @@
   "bin": {
     "create-express-app-template": "index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "create-express-app",
+    "boilerplate",
+    "starter files",
+    "templates"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
