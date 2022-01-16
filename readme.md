@@ -4,7 +4,17 @@ Automating the process of connecting mongoDB,setting up the server and the commo
 
 ## Installation
 
-Step 1: Install my-project with npm :
+Step 1: Install my-project with npm (If your installing the module for the first time ):
+
+```bash
+  npm i create-express-app-template@latest -g
+```
+
+```bash
+  npx create-express-app-template@latest project_name
+```
+
+If you have already installed the module then directly use npx command-
 
 ```bash
   npx create-express-app-template@latest project_name
@@ -24,3 +34,17 @@ Inside of client folder you have you the same folder structure as of npx create-
 b) If you do not opt for React
 
 ![Capture4](https://user-images.githubusercontent.com/65851817/149654456-455b42f6-76e0-493c-b81c-919246faeaf9.PNG)
+
+Step 4 : In config/config.env file set up the MongoDB connection string
+
+Step 5 : Navigate into the folder
+
+```bash
+  cd project_name
+```
+
+Step 6: Run the server
+
+```bash
+  npm start
+```
