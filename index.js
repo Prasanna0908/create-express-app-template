@@ -16,7 +16,7 @@ function main() {
     const projectName = process.argv[2];
     const currentPath = process.cwd();
     const projectPath = path.join(currentPath, projectName);
-    const git_repo = "git@github.com:Prasanna0908/StarterFiles.git";
+    const git_repo = "https://github.com/Prasanna0908/create-express-app-template.git";
 
 
     try {
