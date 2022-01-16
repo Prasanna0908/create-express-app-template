@@ -17,7 +17,7 @@ Step 1: Install my-project with npm (If your installing the module for the first
 If you have already installed the module then directly use npx command-
 
 ```bash
-  npx create-express-app-template@latest project_name
+  npx create-express-app-template project_name
 ```
 
 Step 2: Select the frontend Framework (optional) :
